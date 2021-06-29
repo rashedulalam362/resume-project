@@ -8,15 +8,17 @@
 body{
     background-color:rgb(192, 202, 201);
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 .container{
     max-width: 1100px;
-    height: 1000px;
+    max-height: 1000px;
     background-color:#292725;
     color: white;
     margin: 0 auto;
     padding: 20px;
+    overflow:auto;
 }
 
 .image_pic{
@@ -28,13 +30,13 @@ body{
     
 }
 .personal_info a{
-    background-color: #d67a10 ;
+    background-color: aqua ;
     font-weight: bold;
    text-decoration: underline;
 }
 .personal_info a:hover{
     color:white;
-    background-color:#d67a10 ;
+    background-color:aqua ;
     text-decoration: underline ;
 }
 header{
@@ -58,8 +60,23 @@ section{
     padding: 10px;
     margin: 10px;
 }
+section p a{
+    background-color:aqua
+  
+   
+}
+section p a:hover{
+    background-color:aqua;
+    color:black;
+   
+}
 
 .footer{
   text-align: center;
   margin-top: 15px;
+}
+
+ul li{
+    list-style-position: inside;
+    list-style-type: square;
 }
