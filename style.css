@@ -32,10 +32,10 @@ body{
 .personal_info a{
     background-color: aqua ;
     font-weight: bold;
-   text-decoration: underline;
+   text-decoration:none;
+   color:black;
 }
 .personal_info a:hover{
-    color:white;
     background-color:aqua ;
     text-decoration: underline ;
 }
@@ -61,13 +61,15 @@ section{
     margin: 10px;
 }
 section p a{
-    background-color:aqua
-  
+    background-color:aqua;
+    text-decoration: none;
+    
    
 }
 section p a:hover{
     background-color:aqua;
     color:black;
+    text-decoration:underline;
    
 }
 
@@ -79,4 +81,10 @@ section p a:hover{
 ul li{
     list-style-position: inside;
     list-style-type: square;
+}
+
+footer{
+    background-color: #f56042;
+    font-weight: bold;
+    padding: 5px;
 }
