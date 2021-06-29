@@ -29,11 +29,13 @@ body{
    
     
 }
+
 .personal_info a{
     background-color: aqua ;
     font-weight: bold;
-   text-decoration:none;
-   color:black;
+    text-decoration:none;
+    color:black;
+   
 }
 .personal_info a:hover{
     background-color:aqua ;
@@ -53,6 +55,7 @@ header{
 
 header P{
     font-weight: bold;
+   
 }
 
 section{
@@ -60,9 +63,13 @@ section{
     padding: 10px;
     margin: 10px;
 }
-section p a{
+section p{
+ margin-bottom: 5px;
+}
+section  a{
     background-color:aqua;
     text-decoration: none;
+   
     
    
 }
@@ -81,6 +88,7 @@ section p a:hover{
 ul li{
     list-style-position: inside;
     list-style-type: square;
+    padding: 3px;
 }
 
 footer{
